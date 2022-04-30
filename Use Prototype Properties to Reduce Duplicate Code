@@ -1,0 +1,10 @@
+function Dog(name) {
+  this.name = name;
+}
+
+
+Dog.prototype.numlegs = 3; 
+
+let beagle = new Dog("Snoopy");
+
+Add a numLegs property to the prototype of Dog
