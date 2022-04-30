@@ -1,0 +1,18 @@
+Here's the Bird constructor from the previous challenge:
+
+function Bird() {
+  this.name = "Albert";
+  this.color  = "blue";
+  this.numLegs = 2;
+}
+
+let blueBird = new Bird();
+
+Or hound constructor 
+
+function Dog() {
+  this.name = "Rupert";
+  this.color = "brown";
+  this.numLegs = 4;
+}
+let hound = new Dog ()
